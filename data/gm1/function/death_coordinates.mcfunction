@@ -1,0 +1,2 @@
+$execute as @a[tag=is_dead] at @s run tellraw @a [{"text":"[Info] ","color":"gold"},{"text":"Der Spieler starb bei: ","color":"white"},{"text":"X: $(x) Y: $(y) Z: $(z)","color":"aqua"}]
+execute as @a[tag=is_dead] run tag @s remove is_dead

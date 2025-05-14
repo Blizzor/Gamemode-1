@@ -1,0 +1,14 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:weather_check",
+      "raining": false,
+      "thundering": false
+    }
+  },
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.008
+  }
+]
